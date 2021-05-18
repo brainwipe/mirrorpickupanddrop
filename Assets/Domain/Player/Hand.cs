@@ -21,6 +21,7 @@ namespace Lang.MirrorPickUpAndDrop
         public void CmdPickUp(GameObject cube)
         {
             PickUp = cube;
+            PickUp.GetComponent<NetworkIdentity>().RemoveClientAuthority();
             PickUp.GetComponent<NetworkIdentity>().AssignClientAuthority(connectionToClient);
             PickUp.GetComponent<Cube>().Parent = gameObject;
         }

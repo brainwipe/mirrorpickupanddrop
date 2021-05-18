@@ -14,7 +14,6 @@ public class Cube : NetworkBehaviour
         {
             transform.position = Parent.transform.position;
             transform.rotation = Parent.transform.rotation;
-            //rigidbody.isKinematic = true;
         }
     }
 }

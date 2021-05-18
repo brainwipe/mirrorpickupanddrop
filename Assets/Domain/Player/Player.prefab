@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 5139130269737869327}
   - component: {fileID: 6644816046531837692}
   - component: {fileID: 631628630890461535}
+  - component: {fileID: 2944904008429117863}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -196,6 +197,21 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2944904008429117863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4554847031566800985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a243ff3e357816419f0910b88b53049, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  PickUp: {fileID: 0}
 --- !u!1 &6989017320431687114
 GameObject:
   m_ObjectHideFlags: 0
@@ -208,7 +224,6 @@ GameObject:
   - component: {fileID: 2204790109071308464}
   - component: {fileID: 1996894077328894675}
   - component: {fileID: 928800401538936017}
-  - component: {fileID: 3092976366166672054}
   m_Layer: 0
   m_Name: Hand
   m_TagString: Untagged
@@ -292,16 +307,3 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &3092976366166672054
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6989017320431687114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6a243ff3e357816419f0910b88b53049, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PickUp: {fileID: 0}

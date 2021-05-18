@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 1622707450337913948}
   - component: {fileID: 1622707450337913947}
   - component: {fileID: 1622707450337913946}
+  - component: {fileID: 6118099492654729646}
   m_Layer: 0
   m_Name: Cube
   m_TagString: PickUp
@@ -148,3 +149,18 @@ MonoBehaviour:
   localPositionSensitivity: 0.01
   localRotationSensitivity: 0.01
   localScaleSensitivity: 0.01
+--- !u!114 &6118099492654729646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2605547149779608781}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbbd281c49a34ed42a50977b26516334, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  Parent: {fileID: 0}
